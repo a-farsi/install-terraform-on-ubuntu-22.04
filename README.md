@@ -2,7 +2,7 @@
 
 Terraform est un outil utilisé pour définir l’infrastructure en utilisant HCL.
 
-Pour l'installer sur ubuntu 22.04, voici les étapes à suivre : 
+Pour l'installer sur ubuntu 22.04, utilisez le script shell _install-terraform.sh_ qui implémente les étapes suivantes : 
 
 1. Mise à jour du système et installation des paquets nécessaires: gnupg, software-properties-common, curl; 
 
@@ -17,7 +17,7 @@ Pour l'installer sur ubuntu 22.04, voici les étapes à suivre :
 6. Vérification de l'installation à l'aide de la commande: 
 
 ```
-terraform —version. 
+terraform --version. 
 ```
 
 
